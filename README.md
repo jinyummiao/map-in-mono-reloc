@@ -3,21 +3,25 @@ a paper list of visual re-localization algorithms
 
 ## A. Geo-tagged Frame Map
 
+**Geo-tagged Frame Map** is composed of posed keyframes. The related visual relocalization algorithm can be classified into two categories: *Visual Place Recognition* and *Relative Pose Estimation*.
+
+![VPR](https://github.com/jinyummiao/visual-relocalization/assets/38695019/b716fa14-6c96-4593-b3be-c256f45e32b2)
+
 ### A.1. Visual Place Recognition
 
 #### Survey
 
-Where is your place, visual place recognition?
+Where is your place, visual place recognition? [paper](https://www.ijcai.org/proceedings/2021/0603.pdf)
 
-Visual place recognition: A survey
+Visual place recognition: A survey [paper](https://ieeexplore.ieee.org/document/7339473)
 
-The revisiting problem in simultaneous localization and mapping: A survey on visual loop closure detection
+The revisiting problem in simultaneous localization and mapping: A survey on visual loop closure detection [paper](https://ieeexplore.ieee.org/document/9780121)
 
 #### Global feature-based
 
-Netvlad: CNN architecture for weakly supervised place recognition
+Netvlad: CNN architecture for weakly supervised place recognition [paper](https://ieeexplore.ieee.org/document/7937898) [code(MATLAB)](https://ieeexplore.ieee.org/document/7937898) [code(PyTorch)](https://github.com/Nanne/pytorch-NetVlad)
 
-Anyloc: Towards universal visual place recognition
+Anyloc: Towards universal visual place recognition [arxiv](https://arxiv.org/abs/2308.00688) [code](https://github.com/AnyLoc/AnyLoc)
 
 Histograms of oriented gradients for human detection
 
