@@ -6,7 +6,7 @@ This repo contains a curative list of monocular relocalzation algorithm, which i
 > Jinyu Miao, Kun Jiang, Tuopu Wen, Yunlong Wang, Peijing Jia, Xuhe Zhao, Qian Cheng, Zhongyang Xiao, Jin Huang, Zhihua Zhong, Diange Yang, "A Survey on Monocular Re-Localization: From the Perspective of Scene Map Representation," arXiv preprint arXiv:2311.15643, 2023.
 > ```
 
-We welcome the community to kindly [pull requests](./how-to-PR.md) or [email](mailto:jinyu.miao97@gmail.com) to add related monocular relocalization papers. We make efforts to provide long-term contributions to our community! 
+We welcome the community to kindly [pull requests](./assets/how-to-PR.md) or [email](mailto:jinyu.miao97@gmail.com) to add related monocular relocalization papers. We make efforts to provide long-term contributions to our community! 
 
 If you find this repository useful, please consider [citing](#citation) and staring this repository. Feel free to share this repository with others!
 
