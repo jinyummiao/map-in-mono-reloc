@@ -261,7 +261,7 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 
 #### Cross descriptor matching
 * [ICCV'21] Cross-descriptor visual localization and mapping [paper](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Dusmanu_Cross-Descriptor_Visual_Localization_ICCV_2021_supplemental.pdf) [code](https://github.com/mihaidusmanu/cross-descriptor-vis-loc-map)
-* 
+
 #### Line feature
 * [RAL'21] Line as a visual sentence: Context-aware line descriptor for visual localization [paper](https://ieeexplore.ieee.org/abstract/document/9535286) [code](https://github.com/yosungho/LineTR)
  
