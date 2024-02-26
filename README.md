@@ -31,7 +31,7 @@ Overview
   - [Geometry-based Cross-modal Localization](#c-1-geometry-based-cross-modal-localization)
   - [Learning-based Cross-modal Localization](#c-2-learning-based-cross-modal-localization)
 - [Vectorized HD Map](#d-vectorized-hd-map)
-- [Learnt Implicit Map](#e-learnt-implicit-map)
+- [Learned Implicit Map](#e-learnt-implicit-map)
   - [Absolute Pose Regression](#e-1-absolute-pose-regression)
   - [Scene Coordinate Regression](#e-2-scene-coordinate-regression)
   - [Neural Radiance Field](#e-3-neural-radiance-field)
@@ -203,7 +203,7 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 * [TIP'15] Matching images with multiple descriptors: An unsupervised approach for locally adaptive descriptor selection [paper](https://ieeexplore.ieee.org/abstract/document/7312974)
 * [TCSVT'15] Bb-homography: Joint binary features and bipartite graph matching for homography estimation [paper](https://ieeexplore.ieee.org/abstract/document/6857398)
 * [ECCV'16] Guided matching based on statistical optical flow for fast and robust correspondence analysis [paper](https://link.springer.com/chapter/10.1007/978-3-319-46478-7_7)
-* [CVPR'17] GMS: Grid-based motion statistics for fast, ultra-robust feature correspondence [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Bian_GMS_Grid-based_Motion_CVPR_2017_paper.html)
+* [CVPR'17] GMS: Grid-based motion statistics for fast, ultra-robust feature correspondence [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Bian_GMS_Grid-based_Motion_CVPR_2017_paper.html) [code](https://github.com/JiawangBian/GMS-Feature-Matcher)
 * [TPAMI'17] Efficient & Effective Prioritized Matching for Large-Scale Image-Based Localization [paper](https://ieeexplore.ieee.org/abstract/document/7572201)
 * [CVPR'17] Deep Semantic Feature Matching [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Ufer_Deep_Semantic_Feature_CVPR_2017_paper.html)
 * [TGRS'18] Guided locality preserving feature matching for remote sensing image registration [paper](https://ieeexplore.ieee.org/abstract/document/8340808)
@@ -211,16 +211,16 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 * [TCSVT'18] Dual calibration mechanism based l2, p-norm for graph matching [paper](https://ieeexplore.ieee.org/abstract/document/9195466)
 * [TCSVT'18] Second- and high-order graph matching for correspondence problems [paper](https://ieeexplore.ieee.org/abstract/document/7954631)
 * [CVIU'18] Hierarchical semantic image matching using cnn feature pyramid [paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314218300018)
-* [CVPR'18] Learning to find good correspondences [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Yi_Learning_to_Find_CVPR_2018_paper.html)
-* [CVPR'19] NM-Net: Mining reliable neighbors for robust feature correspondences [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_NM-Net_Mining_Reliable_Neighbors_for_Robust_Feature_Correspondences_CVPR_2019_paper.html)
+* [CVPR'18] Learning to find good correspondences [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Yi_Learning_to_Find_CVPR_2018_paper.html) [code](https://github.com/ubc-vision/image-matching-benchmark)
+* [CVPR'19] NM-Net: Mining reliable neighbors for robust feature correspondences [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_NM-Net_Mining_Reliable_Neighbors_for_Robust_Feature_Correspondences_CVPR_2019_paper.html) [code](https://github.com/sailor-z/NM-Net)
 * [IJCV'19] Locality preserving matching [paper](https://link.springer.com/article/10.1007/s11263-018-1117-z)
-* [ECCV'20] Handcrafted outlier detection revisited [paper](https://link.springer.com/chapter/10.1007/978-3-030-58529-7_45)
+* [ECCV'20] Handcrafted outlier detection revisited [paper](https://link.springer.com/chapter/10.1007/978-3-030-58529-7_45) [code](https://github.com/cavalli1234/AdaLAM)
 * [TCSVT'20] Image correspondence with cur decomposition-based graph completion and matching [paper](https://ieeexplore.ieee.org/abstract/document/8804232)
-* [CVPR'20] ACNe: Attentive context normalization for robust permutation-equivariant learning [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_ACNe_Attentive_Context_Normalization_for_Robust_Permutation-Equivariant_Learning_CVPR_2020_paper.html)
-* [CVPR'20] SuperGlue: Learning feature matching with graph neural networks [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sarlin_SuperGlue_Learning_Feature_Matching_With_Graph_Neural_Networks_CVPR_2020_paper.html)
+* [CVPR'20] ACNe: Attentive context normalization for robust permutation-equivariant learning [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_ACNe_Attentive_Context_Normalization_for_Robust_Permutation-Equivariant_Learning_CVPR_2020_paper.html) [code](https://github.com/vcg-uvic/acne)
+* [CVPR'20] SuperGlue: Learning feature matching with graph neural networks [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sarlin_SuperGlue_Learning_Feature_Matching_With_Graph_Neural_Networks_CVPR_2020_paper.html) [code](https://github.com/magicleap/SuperGluePretrainedNetwork)
 * [TPAMI'22] OANet: Learning two-view correspondences and geometry using order-aware network [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Learning_Two-View_Correspondences_and_Geometry_Using_Order-Aware_Network_ICCV_2019_paper.html)
 * [TCSVT'22] Probabilistic Spatial Distribution Prior Based Attentional Keypoints Matching Network [paper](https://ieeexplore.ieee.org/abstract/document/9386055)
-* [ICCV'23] LightGlue: Local Feature Matching at Light Speed [paper](https://arxiv.org/abs/2306.13643)
+* [ICCV'23] LightGlue: Local Feature Matching at Light Speed [paper](https://arxiv.org/abs/2306.13643) [code](https://github.com/cvg/lightglue)
 
 <div align="center">
 <img src="./assets/feature.png" width = "600" alt="" align=center />
@@ -228,14 +228,14 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 
 ### B-2 Joint Local Feature Extraction-and-Matching
 
-* [ECCV'20] Efficient neighbourhood consensus networks via submanifold sparse convolutions [paper](https://link.springer.com/chapter/10.1007/978-3-030-58545-7_35)
-* [NeurIPS'20] Dual-resolution correspondence networks [paper](https://proceedings.neurips.cc/paper/2020/hash/c91591a8d461c2869b9f535ded3e213e-Abstract.html)
-* [ICCV'21] COTR: Correspondence transformer for matching across images [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.html)
-* [CVPR'21] LoFTR: Detector-free local feature matching with transformers [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_LoFTR_Detector-Free_Local_Feature_Matching_With_Transformers_CVPR_2021_paper.html)
+* [ECCV'20] Efficient neighbourhood consensus networks via submanifold sparse convolutions [paper](https://link.springer.com/chapter/10.1007/978-3-030-58545-7_35) [code](https://github.com/ignacio-rocco/sparse-ncnet)
+* [NeurIPS'20] Dual-resolution correspondence networks [paper](https://proceedings.neurips.cc/paper/2020/hash/c91591a8d461c2869b9f535ded3e213e-Abstract.html) [code](https://github.com/ActiveVisionLab/DualRC-Net)
+* [ICCV'21] COTR: Correspondence transformer for matching across images [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.html) [code](https://github.com/ubc-vision/COTR)
+* [CVPR'21] LoFTR: Detector-free local feature matching with transformers [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_LoFTR_Detector-Free_Local_Feature_Matching_With_Transformers_CVPR_2021_paper.html) [code](https://github.com/zju3dv/LoFTR)
 * [TPAMI'22] NcNet: Neighbourhood consensus networks for estimating image correspondences [paper](https://ieeexplore.ieee.org/abstract/document/9167479)
-* [ECCV'22] Aspanformer: Detector-free image matching with adaptive span transformer [paper](https://link.springer.com/chapter/10.1007/978-3-031-19824-3_2)
+* [ECCV'22] Aspanformer: Detector-free image matching with adaptive span transformer [paper](https://link.springer.com/chapter/10.1007/978-3-031-19824-3_2) [code](https://github.com/apple/ml-aspanformer)
 * [ICCV'23] Occ^2net: Robust image matching based on 3d occupancy estimation for occluded regions [paper](https://openaccess.thecvf.com/content/ICCV2023/html/Fan_Occ2Net_Robust_Image_Matching_Based_on_3D_Occupancy_Estimation_for_ICCV_2023_paper.html)
-* [arxiv] Quadtree attention for vision transformers [paper](https://arxiv.org/abs/2201.02767)
+* [arxiv] Quadtree attention for vision transformers [paper](https://arxiv.org/abs/2201.02767) [code](https://github.com/tangshitao/quadtreeattention)
 * [arxiv] Tkwinformer: Top k window attention in vision transformers for feature matching [paper](https://arxiv.org/abs/2308.15144)
 
 ### B-3 Pose Solver
@@ -251,35 +251,35 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 * [ICCV'11] A direct least-squares (DLS) method for pnp [paper](https://ieeexplore.ieee.org/abstract/document/6126266)
 * [TPAMI'12] A robust o(n) solution to the perspective-n-point problem [paper](https://ieeexplore.ieee.org/abstract/document/6143946)
 * [ICCV'13] Revisiting the pnp problem: A fast, general and optimal solution [paper](https://openaccess.thecvf.com/content_iccv_2013/html/Zheng_Revisiting_the_PnP_2013_ICCV_paper.html)
-* [ICRA'17] 6-dof object pose from semantic keypoints [paper](https://ieeexplore.ieee.org/abstract/document/7989233)
+* [ICRA'17] 6-dof object pose from semantic keypoints [paper](https://ieeexplore.ieee.org/abstract/document/7989233) [code](https://github.com/geopavlakos/object3d)
 * [PRL'18] A simple, robust and fast method for the perspective-n-point problem [paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865518300692)
 * [IROS'19] An efficient and accurate algorithm for the perspecitve-n-point problem [paper](https://ieeexplore.ieee.org/abstract/document/8968482)
-* [ECCV'20] A consistently fast and globally optimal solution to the perspective-n-point problem [paper](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_28)
-* [arxiv] MLPnP - a real-time maximum likelihood solution to the perspective-n-point problem [paper](https://arxiv.org/abs/1607.08112)
+* [ECCV'20] A consistently fast and globally optimal solution to the perspective-n-point problem [paper](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_28) [code](https://github.com/terzakig/sqpnp)
+* [arxiv] MLPnP - a real-time maximum likelihood solution to the perspective-n-point problem [paper](https://arxiv.org/abs/1607.08112) [code](https://github.com/urbste/MLPnP_matlab)
 
 ### B-4 Further Improvements
 
 #### Cross descriptor matching
-* [ICCV'21] Cross-descriptor visual localization and mapping [paper](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Dusmanu_Cross-Descriptor_Visual_Localization_ICCV_2021_supplemental.pdf)
-
+* [ICCV'21] Cross-descriptor visual localization and mapping [paper](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Dusmanu_Cross-Descriptor_Visual_Localization_ICCV_2021_supplemental.pdf) [code](https://github.com/mihaidusmanu/cross-descriptor-vis-loc-map)
+* 
 #### Line feature
-* [RAL'21] Line as a visual sentence: Context-aware line descriptor for visual localization [paper](https://ieeexplore.ieee.org/abstract/document/9535286)
+* [RAL'21] Line as a visual sentence: Context-aware line descriptor for visual localization [paper](https://ieeexplore.ieee.org/abstract/document/9535286) [code](https://github.com/yosungho/LineTR)
  
 #### Dense CNN matching
-* [RAL'19] GN-Net: The gauss-newton loss for multi-weather relocalization [paper](https://ieeexplore.ieee.org/abstract/document/8954808)
-* [TPAMI'21] Inloc: Indoor visual localization with dense matching and view synthesis [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Taira_InLoc_Indoor_Visual_CVPR_2018_paper.html)
+* [RAL'19] GN-Net: The gauss-newton loss for multi-weather relocalization [paper](https://ieeexplore.ieee.org/abstract/document/8954808) [code](https://github.com/cvg/pixloc)
+* [TPAMI'21] Inloc: Indoor visual localization with dense matching and view synthesis [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Taira_InLoc_Indoor_Visual_CVPR_2018_paper.html) [code](https://github.com/HajimeTaira/InLoc_demo)
 * [ICCV'19] Is this the right place? geometric-semantic pose verifcation for indoor visual localization [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Taira_Is_This_the_Right_Place_Geometric-Semantic_Pose_Verification_for_Indoor_ICCV_2019_paper.html)
 
 #### Localization without SfM
-* [ECCV'22] Meshloc: Mesh-based visual localization [paper](https://link.springer.com/chapter/10.1007/978-3-031-20047-2_34)
+* [ECCV'22] Meshloc: Mesh-based visual localization [paper](https://link.springer.com/chapter/10.1007/978-3-031-20047-2_34) [code](https://github.com/tsattler/meshloc_release)
 
 #### Map squeeze
 * [CVPR'22] Scenesqueezer: Learning to compress scene for camera relocalization [paper](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.html)
 
 #### Pose verification and correction
 * [ICCV'19] Is this the right place? geometric-semantic pose verifcation for indoor visual localization [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Taira_Is_This_the_Right_Place_Geometric-Semantic_Pose_Verification_for_Indoor_ICCV_2019_paper.html)
-* [TPAMI'21] Inloc: Indoor visual localization with dense matching and view synthesis [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Taira_InLoc_Indoor_Visual_CVPR_2018_paper.html)
-* [ICCV'21] Pose correction for highly accurate visual localization in large-scale indoor spaces [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Hyeon_Pose_Correction_for_Highly_Accurate_Visual_Localization_in_Large-Scale_Indoor_ICCV_2021_paper.html)
+* [TPAMI'21] Inloc: Indoor visual localization with dense matching and view synthesis [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Taira_InLoc_Indoor_Visual_CVPR_2018_paper.html) [code](https://github.com/HajimeTaira/InLoc_demo)
+* [ICCV'21] Pose correction for highly accurate visual localization in large-scale indoor spaces [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Hyeon_Pose_Correction_for_Highly_Accurate_Visual_Localization_in_Large-Scale_Indoor_ICCV_2021_paper.html) [code](https://github.com/janghunhyeon/pcloc)
 
 #### Opensourced toolbox
 
@@ -301,35 +301,35 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 * [IROS'16] Monocular camera localization in 3d lidar maps [paper](https://ieeexplore.ieee.org/abstract/document/7759304)
 * [IROS'18] Stereo camera localization in 3d lidar maps [paper](https://ieeexplore.ieee.org/abstract/document/8594362)
 * [IROS'19] Metric monocular localization using signed distance fields [paper](https://ieeexplore.ieee.org/abstract/document/8968033)
-* [IROS'20] Monocular camera localization in prior lidar maps with 2d-3d line correspondences [paper](https://ieeexplore.ieee.org/abstract/document/9341690)
+* [IROS'20] Monocular camera localization in prior lidar maps with 2d-3d line correspondences [paper](https://ieeexplore.ieee.org/abstract/document/9341690) [code](https://github.com/levenberg/2D-3D-pose-tracking)
 * [ICRA'20] Monocular direct sparse localization in a prior 3d surfel map [paper](https://ieeexplore.ieee.org/abstract/document/9197022)
-* [RAL'20] GMMLoc: Structure consistent visual localization with gaussian mixture models [paper](https://ieeexplore.ieee.org/abstract/document/9126150)
+* [RAL'20] GMMLoc: Structure consistent visual localization with gaussian mixture models [paper](https://ieeexplore.ieee.org/abstract/document/9126150) [code](https://github.com/HyHuang1995/gmmloc)
 
 ### C-2 Learning-based Cross-modal Localization
 
 #### Cross-modal visual place recognition
 
 * [ICRA'20] Global visual localization in lidar-maps through shared 2d-3d embedding space [paper](https://ieeexplore.ieee.org/abstract/document/9196859)
-* [ICRA'21] Spherical multi-modal place recognition for heterogeneous sensor systems [paper](https://ieeexplore.ieee.org/abstract/document/9561078)
+* [ICRA'21] Spherical multi-modal place recognition for heterogeneous sensor systems [paper](https://ieeexplore.ieee.org/abstract/document/9561078) [code](https://github.com/ethz-asl/s2loc)
 * [RSS'21] i3dLoc: Image-to-range cross-domain localization robust to inconsistent environmental conditions [paper](https://arxiv.org/abs/2105.12883)
 * [IEEE Sensor Journal'23] Attention-enhanced cross-modal localization between spherical images and point clouds [paper](https://ieeexplore.ieee.org/abstract/document/10227896)
 * [arxiv] I2P-Rec:Recognizing images on large-scale point cloud maps through bird's eye view projections [paper](https://arxiv.org/abs/2303.01043)
 
 #### Cross-modal relative pose regression
 
-* [ITSC'19] CMRNet: Camera to lidar-map registration [paper](https://ieeexplore.ieee.org/abstract/document/8917470)
+* [ITSC'19] CMRNet: Camera to lidar-map registration [paper](https://ieeexplore.ieee.org/abstract/document/8917470) [code](https://github.com/cattaneod/CMRNet)
 * [ICRA'21] Hypermap: Compressed 3d map for monocular camera registration [paper](https://ieeexplore.ieee.org/abstract/document/9561864)
-* [arxiv] Poses as queries: Image-to-lidar map localization with transformers [paper](https://arxiv.org/abs/2305.04298)
+* [RAL'24] Poses as Queries: End-to-End Image-to-LiDAR Map Localization With Transformers [paper](https://ieeexplore.ieee.org/document/10333977)
 
 ### Cross-modal matching-based localization
 
 * [ICRA'19] 2d3d-matchnet: Learning to match keypoints across 2d image and 3d point cloud [paper](https://ieeexplore.ieee.org/abstract/document/8794415)
-* [CVPR'21] Neural reprojection error: Merging feature learning and camera pose estimation [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Germain_Neural_Reprojection_Error_Merging_Feature_Learning_and_Camera_Pose_Estimation_CVPR_2021_paper.html)
-* [CVPR'21] Back to the feature: Learning robust camera localization from pixels to pose [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Sarlin_Back_to_the_Feature_Learning_Robust_Camera_Localization_From_Pixels_CVPR_2021_paper.html)
-* [CVPR'21] Deepi2p: Image-to-point cloud registration via deep classification [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Li_DeepI2P_Image-to-Point_Cloud_Registration_via_Deep_Classification_CVPR_2021_paper.html)
+* [CVPR'21] Neural reprojection error: Merging feature learning and camera pose estimation [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Germain_Neural_Reprojection_Error_Merging_Feature_Learning_and_Camera_Pose_Estimation_CVPR_2021_paper.html) [code](https://github.com/germain-hug/NRE)
+* [CVPR'21] Back to the feature: Learning robust camera localization from pixels to pose [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Sarlin_Back_to_the_Feature_Learning_Robust_Camera_Localization_From_Pixels_CVPR_2021_paper.html) [code](https://github.com/cvg/pixloc)
+* [CVPR'21] Deepi2p: Image-to-point cloud registration via deep classification [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Li_DeepI2P_Image-to-Point_Cloud_Registration_via_Deep_Classification_CVPR_2021_paper.html) [code](https://github.com/lijx10/DeepI2P)
 * [RAL'22] EFGHNet: A versatile image-to-point cloud registration network for extreme outdoor environment [paper](https://ieeexplore.ieee.org/abstract/document/9799751)
 * [IJPRS'22] I2D-Loc: Camera localization via image to lidar depth flow [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622002775)
-* [TCSVT'23] Corri2p: Deep image-to-point cloud registration via dense correspondence [paper](https://ieeexplore.ieee.org/abstract/document/9900350)
+* [TCSVT'23] Corri2p: Deep image-to-point cloud registration via dense correspondence [paper](https://ieeexplore.ieee.org/abstract/document/9900350) [code](https://github.com/rsy6318/CorrI2P)
 * [arxiv] CMRet++: Map and camera agnostic monocular visual localization in lidar maps [paper](https://arxiv.org/abs/2004.13795)
 * [arxiv] End-to-end 2d-3d registration between image and lidar point cloud for vehicle localization [paper](https://arxiv.org/abs/2306.11346)
 
@@ -373,69 +373,67 @@ Some recently proposed works implicitly encode scene map into neural networks so
 
 #### Single scene absolute pose regression
 
-* [ICCV'15] Posenet: A convolutional network for real-time 6-dof camera relocalization [paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html)
+* [ICCV'15] Posenet: A convolutional network for real-time 6-dof camera relocalization [paper](https://openaccess.thecvf.com/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html) [code](https://github.com/alexgkendall/caffe-posenet)
 * [ICRR'21] Do we really need scene-specific pose encoders? [paper](https://ieeexplore.ieee.org/abstract/document/9412225)
 * [IROS'17] Deep regression for monocular camera-based 6-dof global localization in outdoor environments [paper](https://ieeexplore.ieee.org/abstract/document/8205957)
 * [ICCVW'17] Image-based localization using hourglass networks [paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w17/html/Melekhov_Image-Based_Localization_Using_ICCV_2017_paper.html)
-* [ICRA'16] Modelling uncertainty in deep learning for camera relocalization [paper](https://ieeexplore.ieee.org/abstract/document/7487679)
+* [ICRA'16] Modelling uncertainty in deep learning for camera relocalization [paper](https://ieeexplore.ieee.org/abstract/document/7487679) [code](https://github.com/alexgkendall/caffe-posenet)
 * [ICCV'17] Image-based localization using lstms for structured feature correlation [paper](https://openaccess.thecvf.com/content_iccv_2017/html/Walch_Image-Based_Localization_Using_ICCV_2017_paper.html)
-* [CVPR'17] Geometric loss functions for camera pose regression with deep learning [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Kendall_Geometric_Loss_Functions_CVPR_2017_paper.html)
-* [CVPR'18] Geometry-aware learning of maps for camera localization [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Brahmbhatt_Geometry-Aware_Learning_of_CVPR_2018_paper.html)
+* [CVPR'17] Geometric loss functions for camera pose regression with deep learning [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Kendall_Geometric_Loss_Functions_CVPR_2017_paper.html) [code](https://github.com/imanlab/deep_movement_primitives)
+* [CVPR'18] Geometry-aware learning of maps for camera localization [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Brahmbhatt_Geometry-Aware_Learning_of_CVPR_2018_paper.html) [code](https://github.com/NVlabs/geomapnet)
 * [BMVC'18] Improved visual relocalization by discovering anchor points [paper](https://arxiv.org/abs/1811.04370)
 * [ICCV'19] Local supports global: Deep camera relocalization with sequence enhancement [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Xue_Local_Supports_Global_Deep_Camera_Relocalization_With_Sequence_Enhancement_ICCV_2019_paper.html)
-* [AAAI'20] Atloc: Attention guided camera localization [paper](https://ojs.aaai.org/index.php/AAAI/article/view/6608)
+* [AAAI'20] Atloc: Attention guided camera localization [paper](https://ojs.aaai.org/index.php/AAAI/article/view/6608) [code](https://github.com/BingCS/AtLoc)
 * [ICASSP'21] CaTiLoc: Camera image transformer for indoor localization [paper](https://ieeexplore.ieee.org/abstract/document/9414939)
-
 
 #### Multiple scene absolute pose regression
 
 * [CVPRW'20] Extending absolute pose regression to multiple scenes [paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w3/Blanton_Extending_Absolute_Pose_Regression_to_Multiple_Scenes_CVPRW_2020_paper.html)
-* [ICCV'21] Learning multi-scene absolute pose regression with transformers [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Shavit_Learning_Multi-Scene_Absolute_Pose_Regression_With_Transformers_ICCV_2021_paper.html)
-* [TPAMI'23] Coarse-to-fine multi-scene pose regression with transformers [paper](https://ieeexplore.ieee.org/abstract/document/10236469)
+* [ICCV'21] Learning multi-scene absolute pose regression with transformers [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Shavit_Learning_Multi-Scene_Absolute_Pose_Regression_With_Transformers_ICCV_2021_paper.html) [code](https://github.com/yolish/multi-scene-pose-transformer)
+* [TPAMI'23] Coarse-to-fine multi-scene pose regression with transformers [paper](https://ieeexplore.ieee.org/abstract/document/10236469) [code](https://github.com/yolish/c2f-ms-transformer)
 
 ### E-2 Scene Coordinate Regression
-
-* [CVPR'20] Kfnet: Learning temporal camera relocalization using kalman filtering [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhou_KFNet_Learning_Temporal_Camera_Relocalization_Using_Kalman_Filtering_CVPR_2020_paper.html)
 
 #### Scene-specific SCR
 
 * [CVPR'13] Scene coordinate regression forests for camera relocalization in rgb-d images [paper](https://openaccess.thecvf.com/content_cvpr_2013/html/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.html)
 * [CVPR'14] Multi-output learning for camera relocalization [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Guzman-Rivera_Multi-Output_Learning_for_2014_CVPR_paper.html)
 * [CVPR'15] Exploiting uncertainty in regression forests for accurate camera relocalization [paper](https://openaccess.thecvf.com/content_cvpr_2015/html/Valentin_Exploiting_Uncertainty_in_2015_CVPR_paper.html)
-* [CVPR'17] DSAC - differentiable ransac for camera localization [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Brachmann_DSAC_-_Differentiable_CVPR_2017_paper.html)
-* [CVPR'18] Learning less is more - 6d camera localization via 3d surface regression [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Brachmann_Learning_Less_Is_CVPR_2018_paper.html)
-* [ICCV'19] Expert sample consensus applied to camera re-localization [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Brachmann_Expert_Sample_Consensus_Applied_to_Camera_Re-Localization_ICCV_2019_paper.html)
+* [CVPR'17] DSAC - differentiable ransac for camera localization [paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Brachmann_DSAC_-_Differentiable_CVPR_2017_paper.html) [code](https://github.com/cvlab-dresden/DSAC)
+* [CVPR'18] Learning less is more - 6d camera localization via 3d surface regression [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Brachmann_Learning_Less_Is_CVPR_2018_paper.html) [code](https://github.com/vislearn/LessMore)
+* [ICCV'19] Expert sample consensus applied to camera re-localization [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Brachmann_Expert_Sample_Consensus_Applied_to_Camera_Re-Localization_ICCV_2019_paper.html) [code](https://github.com/vislearn/esac)
 * [CVPR'20] Hierarchical scene coordinate classification and regression for visual localization [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_Hierarchical_Scene_Coordinate_Classification_and_Regression_for_Visual_Localization_CVPR_2020_paper.html)
-* [CVPR'21] VS-Net: Voting with segmentation for visual localization [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_VS-Net_Voting_With_Segmentation_for_Visual_Localization_CVPR_2021_paper.html)
+* [CVPR'21] VS-Net: Voting with segmentation for visual localization [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_VS-Net_Voting_With_Segmentation_for_Visual_Localization_CVPR_2021_paper.html) [code](https://github.com/zju3dv/VS-Net)
 * [TPAMI'22] Visual camera re-localization from rgb and rgb-d images using dsac [paper](https://ieeexplore.ieee.org/abstract/document/9394752)
-* [3DV'22] Visual localization via few-shot scene region classification [paper](https://ieeexplore.ieee.org/abstract/document/10044413)
+* [3DV'22] Visual localization via few-shot scene region classification [paper](https://ieeexplore.ieee.org/abstract/document/10044413) [code](https://github.com/siyandong/src)
 * [arxiv] Large scale joint semantic re-localisation and scene understanding via globally unique instance coordinate regression [paper](https://arxiv.org/abs/1909.10239)
 * [arxiv] Hscnet++: Hierarchical scene coordinate classification and regression for visual localization with transformer [paper](https://arxiv.org/abs/2305.03595)
 
 #### Scene-agnostic SCR
 
 * [ICCV'19] SANet: Scene agnostic network for camera localization [paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Yang_SANet_Scene_Agnostic_Network_for_Camera_Localization_ICCV_2019_paper.html)
-* [CVPR'21] Learning camera localization via dense scene matching [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_Learning_Camera_Localization_via_Dense_Scene_Matching_CVPR_2021_paper.html)
-* [CVPR'2023] Neumap: Neural coordinate mapping by auto-transdecoder for camera localization [paper](https://openaccess.thecvf.com/content/CVPR2023/html/Tang_NeuMap_Neural_Coordinate_Mapping_by_Auto-Transdecoder_for_Camera_Localization_CVPR_2023_paper.html)
-* [arxiv] D2S: Representing local descriptors and global scene coordinates for camera relocalization [paper](https://arxiv.org/abs/2307.15250)
+* [CVPR'21] Learning camera localization via dense scene matching [paper](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_Learning_Camera_Localization_via_Dense_Scene_Matching_CVPR_2021_paper.html) [code](https://github.com/Tangshitao/Dense-Scene-Matching)
+* [CVPR'2023] Neumap: Neural coordinate mapping by auto-transdecoder for camera localization [paper](https://openaccess.thecvf.com/content/CVPR2023/html/Tang_NeuMap_Neural_Coordinate_Mapping_by_Auto-Transdecoder_for_Camera_Localization_CVPR_2023_paper.html) [code](https://github.com/tangshitao/neumap)
+* [arxiv] D2S: Representing local descriptors and global scene coordinates for camera relocalization [paper](https://arxiv.org/abs/2307.15250) [code](https://github.com/ais-lab/feat2map)
 * [arxiv] SACReg: Scene-agnostic coordinate regression for visual localization [paper](https://arxiv.org/abs/2307.11702)
 
 ### E-3 Neural Radiance Field
 
-* [ECCV'20] Nerf: Representing scenes as neural radiance fields for view synthesis [paper](https://dl.acm.org/doi/abs/10.1145/3503250)
+* [ECCV'20] Nerf: Representing scenes as neural radiance fields for view synthesis [paper](https://dl.acm.org/doi/abs/10.1145/3503250) [code](https://github.com/bmild/nerf)
+
 
 #### NeRF as pose estimator
 
-* [ICCV'21] GNeRF: Gan-based neural radiance field without posed camera [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Meng_GNeRF_GAN-Based_Neural_Radiance_Field_Without_Posed_Camera_ICCV_2021_paper.html)
-* [CVPR'23] NoPe-NeRF: Optimising neural radiance field with no pose prior [paper](https://openaccess.thecvf.com/content/CVPR2023/html/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.html)
-* [ICRA'23] LATITUDE: Robotic global localization with truncated dynamic low-pass filter in city-scale nerf [paper](https://ieeexplore.ieee.org/abstract/document/10161570)
+* [ICCV'21] GNeRF: Gan-based neural radiance field without posed camera [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Meng_GNeRF_GAN-Based_Neural_Radiance_Field_Without_Posed_Camera_ICCV_2021_paper.html) [code](https://github.com/quan-meng/gnerf)
+* [CVPR'23] NoPe-NeRF: Optimising neural radiance field with no pose prior [paper](https://openaccess.thecvf.com/content/CVPR2023/html/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.html) [code](https://github.com/ActiveVisionLab/nope-nerf)
+* [ICRA'23] LATITUDE: Robotic global localization with truncated dynamic low-pass filter in city-scale nerf [paper](https://ieeexplore.ieee.org/abstract/document/10161570) [code](https://github.com/jike5/LATITUDE)
 * [ICRA'23] LocNeRF: Monte carlo localization using neural radiance fields [paper](https://ieeexplore.ieee.org/abstract/document/10160782)
-* [arxiv] NeRF-Loc: Visual localization with conditional neural radiance field [paper](https://arxiv.org/abs/2304.07979)
+* [arxiv] NeRF-Loc: Visual localization with conditional neural radiance field [paper](https://arxiv.org/abs/2304.07979) [code](https://github.com/jenningsl/nerf-loc)
 
 #### NeRF as data augmentation
 
-* [3DV'21] Direct-PoseNet: Absolute pose regression with photometric consistency [paper](https://ieeexplore.ieee.org/abstract/document/9665846)
-* [ECCV'22] DFNet: Enhance absolute pose regression with direct feature matching [paper](https://so.cljtscd.com/scholar?hl=zh-CN&as_sdt=0%2C14&q=DFNet%3A+Enhance+absolute+pose+regression+with+direct+feature+matching&btnG=)
+* [3DV'21] Direct-PoseNet: Absolute pose regression with photometric consistency [paper](https://ieeexplore.ieee.org/abstract/document/9665846) [code](https://github.com/ActiveVisionLab/direct-posenet)
+* [ECCV'22] DFNet: Enhance absolute pose regression with direct feature matching [paper](https://so.cljtscd.com/scholar?hl=zh-CN&as_sdt=0%2C14&q=DFNet%3A+Enhance+absolute+pose+regression+with+direct+feature+matching&btnG=) [code](https://github.com/activevisionlab/dfnet)
 * [CoRL'22] LENS: Localization enhanced by nerf synthesis [paper](https://proceedings.mlr.press/v164/moreau22a.html)
 
 ## Citation
@@ -444,7 +442,7 @@ If you found this repository and survey helpful, please consider citing our rela
 ```
 @article{miao2023MRL,
       title={A Survey on Monocular Re-Localization: From the Perspective of Scene Map Representation}, 
-      author={Jinyu Miao, Kun Jiang, Tuopu Wen, Yunlong Wang, Peijing Jia, Xuhe Zhao, Qian Cheng, Zhongyang Xiao, Jin Huang, Zhihua Zhong, Diange Yang},
+      author={Jinyu Miao, Kun Jiang, Tuopu Wen, Yunlong Wang, Peijing Jia, Benny Wijaya, Xuhe Zhao, Qian Cheng, Zhongyang Xiao, Jin Huang, Zhihua Zhong, Diange Yang},
       journal={arXiv preprint arXiv:2311.15643},
       year={2023}
 }
