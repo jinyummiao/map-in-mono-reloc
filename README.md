@@ -134,7 +134,10 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 <img src="./assets/RPR.png" width = "600" alt="" align=center />
 </div>
 
+* [ICRA'20] To learn or not to learn: Visual localization from essential matrices [paper](https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/to_learn_or_not.html)
+* [ICCV'21] Calibrated and partially calibrated semi-generalized homographies [paper](https://arxiv.org/abs/2103.06535)
 * [ECCV'22] Map-free visual relocalization: Metric pose relative to a single image [paper](https://github.com/nianticlabs/map-free-reloc) [project](https://github.com/nianticlabs/map-free-reloc)
+* [arxiv'23] Lazy Visual Localization via Motion Averaging [paper](https://arxiv.org/abs/2307.09981)
 
 #### Regression-based relative pose estimation
 
