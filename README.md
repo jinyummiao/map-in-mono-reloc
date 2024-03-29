@@ -142,7 +142,7 @@ RPR methods aims to estimate the relative pose between *query* image and *refere
 #### Regression-based relative pose estimation
 
 * [ICCVW'17] Camera relocalization by computing pairwise relative poses using convolutional neural network [paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w17/Laskar_Camera_Relocalization_by_ICCV_2017_paper.pdf)
-* [ACIVS'17] Relative camera pose estimation using convolutional neural networks [paper](Relative camera pose estimation using convolutional neural networks)
+* [ACIVS'17] Relative camera pose estimation using convolutional neural networks [paper](https://arxiv.org/abs/1702.01381)
 * [ECCV'18] Relocnet: Continuous metric learning relocalisation using neural nets [paper](https://link.springer.com/chapter/10.1007/978-3-030-01264-9_46)
 * [ECCVW'19] Rpnet: An end-to-end network for relative camera pose estimation [paper](https://link.springer.com/chapter/10.1007/978-3-030-11009-3_46)
 * [IROS'21] Distillpose: Lightweight camera localization using auxiliary learning [paper](https://arxiv.org/abs/2108.03819)
